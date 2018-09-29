@@ -1,0 +1,118 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+@font-face{
+  font-family: 'font_2';
+  src:url(../fonts/BrockScript.ttf);
+} 
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("../img/b1.jpg");
+    min-height: 100%;    
+}
+
+.w3-inline{
+	display: inline;
+}
+
+#top{
+	max-width: 70%;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+#welcomeMsg{
+  margin: 0 auto;
+  width:100%;
+  font-family: "font_2";
+  font-size: 32px;  
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.foodImg img{
+	width: 200px;
+}
+.w3-padding{
+	padding:30px;
+}
+
+#chatBot{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    width: 400px;
+    z-index: 1000;
+
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 0px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iTourGuide | Home</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/custom.js"></script>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+
+<body>
+	<!-- Navbar (sit on top) -->
+	<div >
+	  <div class="w3-bar w3-black" id="navBar">
+	    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right w3-margin-top" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+	      <i class="fa fa-bars"></i>
+	    </a>
+
+	    <a href="javascript:void(0)" class="w3-bar-item" style="text-decoration: none;font-size:32px">iTourGuide</a>
+	    </a>
+
+	    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-small w3-hover-green w3-right" onclick="document.getElementById('restaurentOwner').style.display='block'" style="height:75px;padding-top:25px;"><i class="fa fa-bank"></i> Own a Hotel?</a>
+
+	    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-small w3-hover-green w3-right" style="height:75px;padding-top:25px;" onclick="document.getElementById('foodLover').style.display='block'"><i class="	fa fa-plane"></i> Adventure Seeker?</a>
+
+	    <a href="javascript:void(0)" class="w3-bar-item w3-white w3-button w3-hide-small  w3-hover-green w3-right" style="height:75px;padding-top:25px;"><i class="fa fa-home"></i> HOME</a>
+
+	  </div>
+
+	  <!-- Navbar on small screens -->
+	  <div id="navSmall" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium ">
+	    <a href="javascript:void(0)" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+	    <a href="javascript:void(0)" class="w3-bar-item w3-button" onclick="toggleFunction()">Food Lover?</a>
+	    <a href="javascript:void(0)" class="w3-bar-item w3-button" onclick="toggleFunction()"> Own a Restaurent?</a>    	   
+	  </div>
+	</div>
+	
+
+	<div class="w3-row w3-padding-32 w3-light-grey" >
+		<h3 class="w3-margin-left"><i class="fa fa-ellipsis-v"></i> Popular Spicy Foods</h3>
+		<hr>
+		<div class="w3-col l4 foodImg">
+			<div class="w3-row w3-row-padding">
+				<div class="w3-half ">
+					<img src="img/i1.jpg">
+				</div>
+				<div class="w3-half w3-border-right">
+					<p><b>Name of the Food</b></p>
+					<p>150 Tk.</p>
+					<p>Restaurent Name</p>
+					<button class="w3-btn w3-blue w3-tiny  w3-round-xxlarge" >Learn more ...</button>
+				</div>
+			</div>		
+		</div>
+
+		<div class="w3-col l4 foodImg">
+			<div class="w3-row w3-row-padding">
+				<div class="w3-half ">
+					<img src="img/i2.jpg">
+				</div>
+				<div class="w3-half w3-border-right">
+					<p><b>Name of the Food</b></p>
+					<p>120 Tk.</p>
+					<p>Restaurent Name</p>
+					<button class="w3-btn w3-blue w3-tiny w3-round-xxlarge">Learn more ...</button>
+				</div>
+			</div>		
+		</div>
+
+		<div class="w3-col l4 foodImg">
+			<div class="w3-row w3-row-padding">
+				<div class="w3-half ">
+					<img src="img/i3.jpg">
+				</div>
+				<div class="w3-half w3-border-right">
+					<p><b>Name of the Food</b></p>
+					<p>130 Tk.</p>
+					<p>Restaurent Name</p>
+					<button class="w3-btn w3-blue w3-tiny  w3-round-xxlarge">Learn more ...</button>
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	
+<footer class="w3-row w3-black" style="height: 100px">
+	<p class="w3-center">All rights reserved &copy Food Finder. 2017-2018</p>
+</footer>
+
+</body>
+</html>
