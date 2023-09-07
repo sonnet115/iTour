@@ -48,4 +48,5 @@
 
 ## Impact
 
-- The platform significantly improved the user experience for tourists by providing a one-stop solution for finding and booking accommodations, exploring nearby attractions, and obtaining real-time directions.
+- This project was completed as part of my university coursework and received a commendable grade, showcasing my proficiency in web development and problem-solving skills. The platform significantly improved the user experience for tourists by providing a one-stop solution for finding and booking accommodations, exploring nearby attractions, and obtaining real-time directions.
+
